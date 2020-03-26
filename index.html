@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
     <div class="wrapper">
@@ -25,7 +26,12 @@
               <div class="center flex_header">
                 <a href="#"><span>CONS</span>TRUCT</a>
                 <nav>
-                    <ul class="menu">
+                    <span class="burger" id="burger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                    <ul class="menu" id="menu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Projects</a></li>
@@ -61,7 +67,7 @@
                         <span>Welcome</span> To Free Psd Construction Template
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                     </p>
                 </div>
                 <div class="cards">
@@ -89,6 +95,50 @@
             </div>
         </section>
         <section class="container4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="item wow bounceInLeft col-xl-6" data-wow-duration="3s">
+                        <img class="left" src="./images/left.png" alt="left">
+                    </div>
+                    <div class="item wow fadeInRight col-xl-5" data-wow-iteration="1">
+                        <h3>Our Service</h3>
+                        <ul class="list">
+                            <li>
+                                <span>
+                                    <img class="drile" src="./images/driel 1.png" alt="driel">
+                                </span>
+                                <h5>Repair Service</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                     sed do eiusmod tempor incididunt ut labore et
+                                </p>
+                            </li>
+                            <li>
+                                <span>
+                                    <img class="drile" src="./images/driel 1.png" alt="driel">
+                                </span>
+                                <h5>Repair Service</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                     sed do eiusmod tempor incididunt ut labore et
+                                </p>
+                            </li>
+                            <li>
+                                <span>
+                                    <img class="drile" src="./images/driel 1.png" alt="driel">
+                                </span>
+                                <h5>Repair Service</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                     sed do eiusmod tempor incididunt ut labore et
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
 
         </section>
         <section class="container5">
@@ -124,6 +174,7 @@
                     </p>
                 </div>
             </div>
+            <div class="container">
                 <div class="grid_box">
                     <div class="blocks block1">
                         <img src="./images/block1.png" alt="block1">
@@ -168,6 +219,7 @@
                         </p>
                     </div>
                 </div>
+            </div>    
         </section>
 
         <section class="container7">
@@ -264,6 +316,50 @@
             </div>
         </section>
 
+        <section class="container9">
+            <div class="center">
+                <div>
+                    <h2>We offer</h2>
+                    <h1>
+                        <span>Client</span> Testimonials
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    </p>
+                </div>
+            </div>
+            <div class="John">
+                <div class="container_jd">
+                   <div class="Doe">
+                    <img src="./images/john.png" alt="john">
+                    <div class="doe_text">
+                        <span>John doe</span>
+                    <p>owner project</p>
+                    </div>
+                   </div>
+                   <div class="john_text">
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    </span>
+                   </div>
+                   <div class="zvezdi">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+            </div>
+
+                
+
+        </section>
+
         <section class="container10">
             <div class="center">
                 <div>
@@ -330,10 +426,34 @@
 
         </section>
     </div>
+    <footer>
+      <div class="foot_center">
+        <div class="foot_text">
+            <h2>Don't miss out, Stay updated</h2>
+        </div>
+        <div class="foot_buttons">
+            <div class="left">
+                <span>Enter your email adress</span>
+            </div>
+            <div class="right">
+                <span>subscribe</span>
+            </div>
+        </div>    
+            <div class="foot_text1">
+                <span>Copyright © 2018, free-psd-templates.com Template Made By ree-psd-templates designers.
+                    All trademarks and copyrights belong to their respective owners.</span>
+            </div>
+      
+    </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
